@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/</loc>
+  </url>
+  
+  <!-- صفحات الخدمات -->
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/renovation-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/plumbing-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/painting-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/decorations-riyadh.html</loc>
+  </url>
+  
+  <!-- صفحات الأحياء (كهرباء) -->
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-naseem-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-naseem-east-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-naseem-west-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-olaya-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-ramal-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-rawabi-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-rayyan-riyadh.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://caesar-tarmym.vercel.app/electrician-salam-riyadh.html</loc>
+  </url>
+  
+</urlset>

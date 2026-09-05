@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://caesar-tarmym.vercel.app//sitemap.xml
