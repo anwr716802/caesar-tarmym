@@ -134,7 +134,7 @@
 
                 <!-- Desktop Navigation Links -->
                 <nav class="hidden lg:flex items-center gap-1">
-                    <button onclick="navTo('home')" class="nav-link px-3 py-2 text-sm font-bold text-slate-700 hover:text-amber-600 rounded-lg hover:bg-slate-50 transition">الرئيسية</button>
+                  <a href="index.html" class="nav-link px-3 py-2 text-sm font-bold text-slate-700 hover:text-amber-600 rounded-lg hover:bg-slate-50 transition">الرئيسية<></a>
                     
                     <!-- Services Dropdown -->
                     <div class="relative group">
@@ -142,7 +142,7 @@
                             خدماتنا <i class="fa-solid fa-chevron-down text-xs opacity-60"></i>
                         </button>
                         <div class="absolute right-0 top-full hidden group-hover:block w-64 bg-white shadow-xl rounded-xl border border-slate-100 py-2 mt-1 z-50">
-                            <a href="#home-renovation-riyadh" onclick="navTo('service-renovation')" class="block px-4 py-2.5 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"><i class="fa-solid fa-house-chimney text-amber-500 ml-2"></i> ترميم شامل للمنازل والفلل</a>
+                            <a href="renovation-riyadh.html" class="block px-4 py-2.5 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"><i class="fa-solid fa-house-chimney text-amber-500 ml-2"></i> ترميم شامل للمنازل والفلل</a>
                             <a href="#electrician-riyadh" onclick="navTo('service-electrician')" class="block px-4 py-2.5 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"><i class="fa-solid fa-bolt text-amber-500 ml-2"></i> خدمات الكهرباء والصيانة</a>
                             <a href="#plumbing-riyadh" onclick="navTo('service-plumbing')" class="block px-4 py-2.5 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"><i class="fa-solid fa-faucet-drip text-amber-500 ml-2"></i> تأسيس وصيانة السباكة</a>
                             <a href="#painting-riyadh" onclick="navTo('service-painting')" class="block px-4 py-2.5 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"><i class="fa-solid fa-paint-roller text-amber-500 ml-2"></i> أعمال الدهانات والبويات</a>
@@ -195,25 +195,36 @@
             <div class="py-2 border-b border-slate-100">
                 <span class="block text-xs font-bold text-slate-400 mb-2">خدمات الترميم والصيانة:</span>
                 <div class="grid grid-cols-2 gap-2 text-xs font-semibold">
-                    <button onclick="navTo('service-renovation'); toggleMobileMenu();" class="p-2 bg-slate-50 rounded text-right text-slate-700">ترميم شامل</button>
-                    <button onclick="navTo('service-electrician'); toggleMobileMenu();" class="p-2 bg-slate-50 rounded text-right text-slate-700">خدمات الكهرباء</button>
-                    <button onclick="navTo('service-plumbing'); toggleMobileMenu();" class="p-2 bg-slate-50 rounded text-right text-slate-700">أعمال السباكة</button>
-                    <button onclick="navTo('service-painting'); toggleMobileMenu();" class="p-2 bg-slate-50 rounded text-right text-slate-700">الدهانات والبويات</button>
-                    <button onclick="navTo('service-decor'); toggleMobileMenu();" class="p-2 bg-slate-50 rounded text-right text-slate-700">الديكور الداخلي</button>
+                   <a href="renovation-riyadh.html" class="p-2 bg-slate-50 rounded text-right text-slate-700">ترميم شامل</a>
+                   
+                   <a href="electrician-riyadh.html" class="p-2 bg-slate-50 rounded text-right text-slate-700">خدمات الكهرباء</a>
+                   
+                   <a href="plumbing-riyadh.html" class="p-2 bg-slate-50 rounded text-right text-slate-700">أعمال السباكة</a>
+                   <a href="painting-riyadh.html" class="p-2 bg-slate-50 rounded text-right text-slate-700">الدهانات والبويات</a>
+                   
+                   <a href=".decorations-riyadh.html" class="p-2 bg-slate-50 rounded text-right text-slate-700">الديكور الداخلي</a>
+                    
                 </div>
             </div>
 
             <div class="py-2 border-b border-slate-100">
                 <span class="block text-xs font-bold text-amber-600 mb-2"><i class="fa-solid fa-location-dot"></i> صفحات كهربائي الأحياء (SEO):</span>
                 <div class="grid grid-cols-2 gap-1.5 text-xs">
-                    <button onclick="navTo('naseem'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">النسيم</button>
-                    <button onclick="navTo('olaya'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">العليا</button>
-                    <button onclick="navTo('ramal'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">الرمال</button>
-                    <button onclick="navTo('naseem-west'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">النسيم الغربي</button>
-                    <button onclick="navTo('naseem-east'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">النسيم الشرقي</button>
-                    <button onclick="navTo('salam'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">السلام</button>
-                    <button onclick="navTo('rawabi'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">الروابي</button>
-                    <button onclick="navTo('rayyan'); toggleMobileMenu();" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">الريان</button>
+                    <a href=".electrician-naseem-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">النسيم </a>
+                   
+                   <a href=".electrician-olaya-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">العليا</a>
+                  
+                  <a href=".electrician-ramal-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">الرمال</a>
+                    
+                    <a href=".electrician-naseem-west-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">النسيم الغربي </a>
+                   
+                   <a href=".electrician-naseem-east-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">النسيم الشرقي </a>
+                   
+                   <a href=".electrician-salam-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">السلام </a>
+                    
+                    <a href=".electrician-rawabi-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">الروابي</a>
+                   <a href=".electrician-rayyan-riyadh.html" class="p-2 bg-amber-50 text-amber-900 rounded font-semibold text-right">الريان </a>
+                    
                 </div>
             </div>
 
@@ -258,7 +269,7 @@
 
                             <!-- Trust Badges -->
                             <div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-800/80 max-w-xl text-xs sm:text-sm font-semibold">
-                                <div class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-amber-400 text-lg"></i> ضمان يصل لـ 10 سنوات</div>
+                                <div class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-amber-400 text-lg"></i> ضمان  يصل لـ 5 سنوات واكثر</div>
                                 <div class="flex items-center gap-2"><i class="fa-solid fa-clock text-amber-400 text-lg"></i> سرعة استجابة طارئة</div>
                                 <div class="flex items-center gap-2"><i class="fa-solid fa-user-check text-amber-400 text-lg"></i> كادر فني متخصص</div>
                             </div>
@@ -445,14 +456,14 @@
             <div>
                 <h4 class="text-white font-extrabold text-base mb-4 border-r-4 border-amber-500 pr-3">كهربائي أحياء الرياض</h4>
                 <div class="grid grid-cols-2 gap-x-2 gap-y-1.5 text-xs">
-                    <a href="electrician-naseem-riyadh.html" onclick="navTo('naseem')" class="hover:text-amber-400 transition">كهربائي النسيم</a>
-                    <a href="electrician-olaya-riyadh.html" onclick="navTo('olaya')" class="hover:text-amber-400 transition">كهربائي العليا</a>
-                    <a href="electrician-ramal-riyadh.html" onclick="navTo('ramal')" class="hover:text-amber-400 transition">كهربائي الرمال</a>
-                    <a href="electrician-naseem-west-riyadh.html" onclick="navTo('naseem-west')" class="hover:text-amber-400 transition">النسيم الغربي</a>
-                    <a href="electrician-naseem-east-riyadh.html" onclick="navTo('naseem-east')" class="hover:text-amber-400 transition">النسيم الشرقي</a>
-                    <a href="electrician-salam-riyadh.html" onclick="navTo('salam')" class="hover:text-amber-400 transition">كهربائي السلام</a>
-                    <a href="electrician-rawabi-riyadh.html" onclick="navTo('rawabi')" class="hover:text-amber-400 transition">كهربائي الروابي</a>
-                    <a href="electrician-rayyan-riyadh.html" onclick="navTo('rayyan')" class="hover:text-amber-400 transition">كهربائي الريان</a>
+                    <a href=".electrician-naseem-riyadh.html" class="hover:text-amber-400 transition">كهربائي النسيم</a>
+                    <a href=".electrician-olaya-riyadh.html" class="hover:text-amber-400 transition">كهربائي العليا</a>
+                    <a href=".electrician-ramal-riyadh.html" class="hover:text-amber-400 transition">كهربائي الرمال</a>
+                    <a href=".electrician-naseem-west-riyadh.html" class="hover:text-amber-400 transition">النسيم الغربي</a>
+                    <a href=".electrician-naseem-east-riyadh.html" class="hover:text-amber-400 transition">النسيم الشرقي</a>
+                    <a href=".electrician-salam-riyadh.html" class="hover:text-amber-400 transition">كهربائي السلام</a>
+                    <a href=".electrician-rawabi-riyadh.html" class="hover:text-amber-400 transition">كهربائي الروابي</a>
+                    <a href=".electrician-rayyan-riyadh.html" class="hover:text-amber-400 transition">كهربائي الريان</a>
                 </div>
             </div>
 
